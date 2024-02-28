@@ -131,11 +131,6 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-/* sup {
-    vertical-align: baseline;
-} */
 sup {
-  font-size:xx-small; vertical-align:super;
+    vertical-align: baseline;
 }
-
-
