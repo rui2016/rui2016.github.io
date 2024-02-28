@@ -131,9 +131,11 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-sup {
+/* sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: top;
+} */
+
+sup {vertical-align:top;}
