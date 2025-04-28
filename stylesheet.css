@@ -139,3 +139,23 @@ span.highlight {
 } */
 
 sup {vertical-align:top;}
+
+.patent-list {
+  list-style: none;
+  counter-reset: patent-counter;
+  padding-left: 0;
+}
+
+.patent-list li {
+  counter-increment: patent-counter;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 40px;
+}
+
+.patent-list li::before {
+  content: "[" counter(patent-counter) "]";
+  position: absolute;
+  left: 0;
+  font-weight: normal;
+}
